@@ -20,7 +20,7 @@ class User
 
 $user = new User();
 try {
-    echo $user->email->name;
+    echo $user->email;
 }catch (Exception $e){
     echo $e->getMessage();
 }
